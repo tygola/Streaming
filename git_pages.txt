@@ -1,0 +1,9 @@
+hospedar projeto no git hub pages passo a passo
+
+1-subir o projeto pro github
+2-entrar no projeto e ir em settings
+3-ir pages
+4-em pages:
+source: deploy from branch
+branch: main, root, save
+5-espera até o github te dar uma url

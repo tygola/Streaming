@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streaming Tygola - Player</title>
+  <style>
+    body{
+      background-color: #141414;
+    }
+    video {
+      width: 75%;
+      margin: 75px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    button {
+      margin: 10px;
+      background-color: #2cd467;
+    }
+    .button-container {
+      margin-left: 20px;
+    }
+    output{
+      color: #2cd467;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="button-container">
+    <div>
+      <button type="button" disabled id="init"> Inicializar Reconhecimento de Piscada</button>
+      <output id="status"></output>
+    </div>
+  </div>
+  <video id="video" controls></video>
+  <script src="./src/index.js" type="module"></script>
+</body>
+
+</html>
